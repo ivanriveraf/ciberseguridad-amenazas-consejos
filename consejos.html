@@ -30,7 +30,6 @@
       <li class="list-group-item">Actualiza frecuentemente tus sistemas y programas.</li>
     </ul>
 
-    <h3 class="mb-3">Contáctanos</h3>
     <form id="contactoForm">
       <div class="mb-3">
         <label for="nombre" class="form-label">Nombre</label>
@@ -72,22 +71,6 @@
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('#contactoForm').on('submit', function(e) {
-        e.preventDefault();
-        alert('Formulario enviado correctamente.');
-      });
-
-      $('.test-respuesta').click(function() {
-        const respuesta = $(this).text();
-        if (respuesta === 'No') {
-          $('#respuestaTest').text('¡Correcto! Nunca uses la misma contraseña.').addClass('text-success').removeClass('text-danger');
-        } else {
-          $('#respuestaTest').text('Incorrecto. Es un riesgo usar la misma contraseña.').addClass('text-danger').removeClass('text-success');
-        }
-      });
-    });
-  </script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
