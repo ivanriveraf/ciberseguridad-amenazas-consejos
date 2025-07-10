@@ -1,0 +1,34 @@
+/* assets/css/estilos.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(to right, #007bff, #0056b3);
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: auto;
+}
+
+.accordion-button {
+  cursor: pointer;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.modal-body .btn {
+  width: 100%;
+}
