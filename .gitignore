@@ -1,0 +1,24 @@
+# Archivos del sistema (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Archivos temporales del editor
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de configuración de sistemas operativos o IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js (si lo usas en el futuro)
+node_modules/
+
+# Archivos de despliegue (si generas una build en dist/)
+dist/
+build/
