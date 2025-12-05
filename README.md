@@ -1,47 +1,87 @@
-# Proyecto Web: Ciberseguridad
+# Sitio Web de Ciberseguridad: Amenazas y Consejos
 
-Este proyecto consiste en un sitio web informativo sobre **ciberseguridad**, diseñado como parte de una evaluación académica. El objetivo es aplicar conocimientos de **HTML, CSS, JavaScript, Bootstrap y jQuery**, junto con el uso de GitHub para la gestión del código.
+Proyecto web informativo sobre **amenazas de ciberseguridad** y **buenas
+prácticas de protección**, desarrollado como parte de una evaluación
+académica del módulo 2 y luego mejorado para formar parte de mi
+portafolio técnico.
 
----
+------------------------------------------------------------------------
 
-## 🌐 Objetivo
+##  Objetivo
 
-Informar al público sobre amenazas comunes de ciberseguridad y brindar consejos para proteger su información personal. El sitio es interactivo y responsive, adaptado para diferentes dispositivos.
+Explicar de forma clara y sencilla las amenazas más comunes (phishing,
+malware, ransomware, ingeniería social, etc.) y entregar consejos
+prácticos para que cualquier usuario pueda mejorar su seguridad digital.
 
----
+------------------------------------------------------------------------
 
-## 🧱 Estructura del proyecto
+##  Características principales
 
-ciberseguridad/
-│
-├── index.html # Página principal (introducción)
-├── amenazas.html # Página con amenazas comunes
-├── consejos.html # Página con consejos de seguridad
-│
-├── assets/
-│ ├── css/
-│ │ └── estilos.css # Estilos personalizados
-│ ├── js/
-│ │ └── script.js # Funciones de validación y dinámicas
-│ └── img/
-│ └── (imágenes del carrusel o íconos)
+-   Página de inicio con presentación del proyecto.
+-   Sección de **amenazas** con tarjetas informativas.
+-   Sección de **consejos** con buenas prácticas organizadas.
+-   Diseño **oscuro tipo ciberseguridad / Matrix** con Bootstrap 5.
+-   Estilos personalizados en CSS.
+-   Uso de JavaScript y jQuery para pequeñas interacciones.
+-   Proyecto completamente **responsive**.
+-   Publicado en **GitHub Pages**.
 
+------------------------------------------------------------------------
 
----
+##  Tecnologías utilizadas
 
-## 💻 Tecnologías utilizadas
+-   **HTML5**
+-   **CSS3 + estilos personalizados**
+-   **Bootstrap 5**
+-   **JavaScript**
+-   **jQuery**
+-   **Git & GitHub**
 
-- **HTML5** – estructura semántica del sitio
-- **CSS3** – estilos personalizados
-- **Bootstrap 5.3** – diseño responsive y componentes
-- **JavaScript** – lógica para eventos y validaciones
-- **jQuery** – manipulación dinámica del DOM
-- **Git y GitHub** – control de versiones y repositorio
+------------------------------------------------------------------------
 
----
+##  Estructura del proyecto
 
-## 🚀 Cómo ejecutar el proyecto
+    ciberseguridad-amenazas-consejos/
+    ├── index.html
+    ├── amenazas.html
+    ├── consejos.html
+    └── assets/
+        ├── css/
+        │   └── estilos.css
+        ├── js/
+        │   └── script.js
+        └── img/
 
-1. Clona el repositorio desde GitHub:
-   ```bash
-   git clone https://github.com/tu-usuario/ciberseguridad.git
+------------------------------------------------------------------------
+
+##  Demo en GitHub Pages
+
+    https://ivanriveraf.github.io/ciberseguridad-amenazas-consejos/
+
+------------------------------------------------------------------------
+
+##  Cómo ejecutar el proyecto en local
+
+1.  Clonar el repositorio:
+
+``` bash
+git clone https://github.com/ivanriveraf/ciberseguridad-amenazas-consejos.git
+```
+
+2.  Abrir `index.html` en tu navegador.
+
+No requiere instalaciones adicionales.
+
+------------------------------------------------------------------------
+
+##  Contexto académico
+
+Este proyecto fue desarrollado como evaluación del **módulo 2** y
+posteriormente mejorado para uso real en portafolio profesional.
+
+------------------------------------------------------------------------
+
+##  Autor
+
+**Iván Patricio Rivera Fuentealba**\
+Proyecto incluido en el **Portafolio Matrix** 2025.
